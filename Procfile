@@ -1,1 +1,1 @@
-web: sh target/spr-mvc-hib
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
