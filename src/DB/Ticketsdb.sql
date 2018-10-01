@@ -28,7 +28,7 @@ WITH (
   OIDS=FALSE
 );
 ALTER TABLE employee
-  OWNER TO zygxxggutohjhp;
+  OWNER TO postgres;
 
 -- Index: idx_employee
 
@@ -54,7 +54,7 @@ WITH (
   OIDS=FALSE
 );
 ALTER TABLE routes
-  OWNER TO zygxxggutohjhp;
+  OWNER TO postgres;
 
 
 -- Table: public.request
@@ -82,7 +82,7 @@ WITH (
   OIDS=FALSE
 );
 ALTER TABLE public.request
-  OWNER TO zygxxggutohjhp;
+  OWNER TO postgres;
 
 -- Index: public.idx_request
 
@@ -109,7 +109,7 @@ WITH (
 
 
 ALTER TABLE teams
-  OWNER TO zygxxggutohjhp;
+  OWNER TO postgres;
 
 CREATE INDEX idx_teams
   ON teams
